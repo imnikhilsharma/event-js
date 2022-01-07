@@ -1,4 +1,3 @@
-# event-js
 <script>
       var slug = window.location.pathname;
     var urlPart = slug.split('/');
@@ -19,17 +18,17 @@
         var elementName = document.getElementsByClassName('p-2')[i].childNodes[0];
         if(elementName.childNodes[0].tagName == 'svg'){
           console.log(elementName.childNodes[1].innerText);
-          selectedCategory += elementName.childNodes[1].innerText;
+          selectedCategory += ' ,'+elementName.childNodes[1].innerText;
         }
 
       }
       
       if(selectedCategory != ''){
         window.dataLayer.push({
-            "event": "YesClicked",
-            "eventLabel": "step-1",
+            "event": "NextClicked",
+            "eventLabel": "step-2",
             "eventCategory": selectedCategory,
-            "eventAction": "YesClicked"
+            "eventAction": "NextClicked"
         })
       }
     
