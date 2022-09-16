@@ -5,8 +5,8 @@ let submitButton = document.getElementsByClassName('action submit primary')[0];
 submitButton.addEventListener("click", trackEvents);
 
 function trackEvents() {
-    let orderId = document.getElementById('oar-order-id');
-    let billingLastName = document.getElementById('oar-billing-lastname');
+    let orderId = document.getElementById('oar-order-id').value;
+    let billingLastName = document.getElementById('oar-billing-lastname').value;
    
     let findOrderByType;
     let findOrderByValue;
