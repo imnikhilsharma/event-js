@@ -1,4 +1,4 @@
-**This Repo Code help SEO professionals to setup custom event setup through tag manager. 
+**This Repo Code helps SEO professionals to set up custom events setup through a tag manager. 
 **Button Tracking 
 **Form Tracking 
 **Email CLick tracking 
